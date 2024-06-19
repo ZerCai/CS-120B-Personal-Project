@@ -155,10 +155,6 @@ int TickFct_REMOTE(int state) {
     switch(state) {
         case WAIT_REMOTE:
             break;
-                case OFF:
-            break;
-        case DISPLAY_TITLE:
-            break;
         default:
             break;
     }
