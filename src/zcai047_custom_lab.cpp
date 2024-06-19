@@ -115,6 +115,7 @@ void TimerISR() {
     TimerFlag = 0;
 }
 
+// added to Github
 enum REMOTE_STATES {REMOTE_INIT, WAIT_REMOTE, DISPLAY_TITLE, OFF, RESTART};
 int TickFct_REMOTE(int state) {
     switch(state) {
@@ -153,6 +154,10 @@ int TickFct_REMOTE(int state) {
     }
     switch(state) {
         case WAIT_REMOTE:
+            break;
+        case OFF:
+            break;
+        case DISPLAY_TITLE:
             break;
         default:
             break;
